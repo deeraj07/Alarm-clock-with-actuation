@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'RTCmatch.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"rtcmatch.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"delays.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "rtcmatch.o" "lcd.o" "delays.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RTCmatch.map" -o "RTCmatch.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RTCmatch.axf'
+### ADS-LD Command File: 'RTCmatch.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RTCmatch.lnp', Handle=0x000008F8
+### Writing '.lnp' file
+### ADS-LD Command file 'RTCmatch.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
